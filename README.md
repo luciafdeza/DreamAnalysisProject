@@ -266,7 +266,9 @@ Here we can see the relationship between average dream length, emotion and gende
 </p>
 
 Here we can see the relationship between cluster and gender. Women show higher intensity of "HA" in cluster 5 (0.45), while men show higher "AP" in clusters 3, 4, and 6 (0.40).
-![image](https://github.com/user-attachments/assets/0ab35cfd-fafb-4f01-8da5-b1ddac202a41)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0ab35cfd-fafb-4f01-8da5-b1ddac202a41" width="400">
+</p>
 
 
 These results suggest significant differences in emotional expression between genders across the different dream clusters.
