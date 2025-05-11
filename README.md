@@ -195,12 +195,6 @@ In this last plot, using K-Means with 20 clusters, the Davies-Bouldin index rang
 
 By comparing the relation of topics and the two cluster representations, we can see that with 7 clusters we represent the bigger topics, meaning the topics that have more entries, but if we check the 20 clusters graph we can appreciate that it is capturing the smaller topics, the topics that have less number of dreams associated.
 
-
-
-
-
-
-
 While no extremely clear divisions are observed among the clusters, there are several notable differences:
 
 - **Based on numerical statistics by cluster, some groups are gender-skewed:**
@@ -216,8 +210,16 @@ While no extremely clear divisions are observed among the clusters, there are se
 
 ![image](https://github.com/user-attachments/assets/6af488e4-7a94-422a-8c1d-b4041179a45c)
 
+- **Analyzing dream length:**
+  - Cluster 5 features the shortest dreams
+  - Cluster 3 has the longest dreams 
+
+![image](https://github.com/user-attachments/assets/7b894837-92e4-49a0-bf63-b2edee1349ae)
 
 
+Furthermore, we can relate the clusters with the Topics from LDA thanks to the table obtained:
+
+![image](https://github.com/user-attachments/assets/e80e1d9d-55f8-4ebc-8031-c93367b0a47b)
 
 
 
