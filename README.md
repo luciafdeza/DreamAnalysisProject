@@ -181,6 +181,7 @@ To obtain the optimal number of clusters, we used a combination of **Silhouette 
 </p>
 
 To visualize the clusters, we apply PCA, t-SNE, and UMAP. These dimensionality reduction techniques reduce the data to 2D or 3D space, helping us visualize the distribution and separation of the clusters, making it easier to interpret the results of K-Means clustering.
+
 These following plots show the relationship between the LDA topics and the K-Means clusters. In the left-hand visualization, each dream is colored according to its predominant topic, meaning the topic with the highest probability in its LDA representation. In the right-hand visualization, the colors indicate the clusters assigned by K-Means, which were learned based on the topic distributions produced by the LDA model.
 
 <p align="center">
@@ -194,12 +195,27 @@ These following plots show the relationship between the LDA topics and the K-Mea
 
 
 
+While no extremely clear divisions are observed among the clusters, there are several notable differences:
+
+- **Based on numerical statistics by cluster, some groups are gender-skewed:**
+  - Clusters 0, 1, and 2 have a majority of female participants.
+  - Clusters 3 and 4 are more gender-balanced, particularly cluster 4.
+  - Clusters 5 and 6 are smaller in size, but also tend to have more female participants.
+
+- **Regarding the distribution of emotions per cluster:**
+  - The **AP** emotion (fear, anxiety) is the most common across all clusters.
+  - Cluster 1 has the highest absolute number of emotions overall.
+  - Cluster 5, despite being small, contains a relatively high number of **happy dreams (HA)**.
+  - Cluster 6 is the smallest in terms of size and also shows the least emotional diversity.
+
+![image](https://github.com/user-attachments/assets/6af488e4-7a94-422a-8c1d-b4041179a45c)
 
 
 
 
 
 
+## 5. Task 3. Implementation of a dashboard
 
 
 
