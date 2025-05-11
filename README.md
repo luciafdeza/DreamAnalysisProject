@@ -1,4 +1,4 @@
-# DreamAnalysisProject
+# Dream Analysis Project
 **Dreams Analysis Through Classification and Clustering**
 
 **Dual Bachelor in Data Science and Engineering & Telecommunication Technologies Engineering**
@@ -129,8 +129,8 @@ Topic 7: Words like "car", "water", "drive", and "plane" clearly relate to trans
 Topic 8: Words like "car", "road", "stop", and "drive" focus specifically on road transportation.
 These discovered topics provide valuable insights into the main themes present in our corpus and can be used for document classification or recommendation systems.
 
-### 4. Task 2 Machine Learning
-#### 4.1 Task 2.1. Classification using feature extraction & selection techniques
+## 4. Task 2 Machine Learning
+### 4.1 Task 2.1. Classification using feature extraction & selection techniques
 
 For classification, our objective was to classify the emotion of a dream. We used the ‘emotion_feature’, which contains the following labels:
 - **HA**: positive emotions 
@@ -168,7 +168,7 @@ The results were notably stronger, even with just BoW and TF-IDF. These results 
 
 The performance in this binary classification task confirms that the models are capable of extracting discriminative features from the dream texts and reinforces the idea that the lower performance in emotion classification is not due to model incapacity, but rather due to the complexity, ambiguity, and subjectivity of emotional expressions.
 
-#### 4.2 Task 2.2. Clustering using feature extraction or selection techniques
+### 4.2 Task 2.2. Clustering using feature extraction or selection techniques
 
 We thought it would be interesting to analyze the themes of dreams and see if they were related or if we could identify predominant themes.
 
@@ -186,3 +186,35 @@ These following plots show the relationship between the LDA topics and the K-Mea
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b3c8854e-da2c-450d-93fc-aa4c214e6b3e">
 </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 6. Acknowledgement of authorship
+This project has been developed by the four of us. We have been working collaboratively in the structure, development, and analysis of the different tasks and results. We have discussed which tools and methods to implement are the best options to address the challenges faced throughout the process.
+During the implementation, we found technical and conceptual obstacles and issues that led us to explore and experiment. When we got stuck or when the results were unclear, we used artificial intelligence, such as ChatGPT, Gemini, and Claude. These tools facilitated our analysis, and gave us some ideas on how to improve our approach. Nevertheless, it did not solve all of our questions and sometimes it gave wrong answers, so we had to be careful and verify things twice in order to not make mistakes.
+
+## 7. Conclusion
+With this project, we conclude the course of Machine Learning Applications. Throughout the development, we consider that we have applied most of the knowledge gained on it, such as feature engineering or Natural Language Processing techniques.
+
+It was an interesting project since we have tried by ourselves in an independent way to achieve results and how to get them. It  also has to be said that it has been a hard challenge. We encountered a variety of issues and problems, such as compatibility errors between libraries and packages, difficulties interpreting results, or unexpected insights that made us change how to focus the tasks.
+
+We have discovered that not everything is as easy and perfect as it might initially seem to be.  In many academic projects, we worked with prepared datasets that, of course, are going to fit perfectly with the tasks proposed. Nevertheless, with the dataset selected about dreams, we realized that it may be difficult to achieve high accuracy,  clear distinctions in classification, or meaningful clustering, and that the analysis can become more complex when dealing with real, messy, and subjective data. This experience taught us the importance of adaptability, critical thinking, and the value of working through uncertainty in the real world data analysis.
+
+To put it simply and succinctly , while the development of it was full of unexpected turns and demanding moments, it has been an enriching experience from which we have learned a lot. We would have loved to achieve perfect results and ideal and clear conclusions. However, in real life this is not so straightforward and we are proud of what we’ve achieved and of the knowledge acquired. 
+
+
