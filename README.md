@@ -177,12 +177,12 @@ To achieve this, the **K-Means** algorithm was applied to the **LDA matrix**, wh
 To obtain the optimal number of clusters, we used a combination of **Silhouette Score** and **Elbow Method**. In the graphs below, we cannot see any clear elbow, and the silhouette values are quite low, indicating that the clusters have a moderate quality. By combining both graphs, we can clearly set the optimal number of clusters at **7**.
 
 <p align="center">
-  <img src="(https://github.com/user-attachments/assets/25c7b128-4793-4dbe-85e4-12c387161ca0)">
+  <img src="https://github.com/user-attachments/assets/25c7b128-4793-4dbe-85e4-12c387161ca0">
 </p>
 
 To visualize the clusters, we apply PCA, t-SNE, and UMAP. These dimensionality reduction techniques reduce the data to 2D or 3D space, helping us visualize the distribution and separation of the clusters, making it easier to interpret the results of K-Means clustering.
 These following plots show the relationship between the LDA topics and the K-Means clusters. In the left-hand visualization, each dream is colored according to its predominant topic, meaning the topic with the highest probability in its LDA representation. In the right-hand visualization, the colors indicate the clusters assigned by K-Means, which were learned based on the topic distributions produced by the LDA model.
 
 <p align="center">
-  <img src="(https://github.com/user-attachments/assets/b3c8854e-da2c-450d-93fc-aa4c214e6b3e)">
+  <img src="https://github.com/user-attachments/assets/b3c8854e-da2c-450d-93fc-aa4c214e6b3e">
 </p>
