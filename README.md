@@ -250,12 +250,26 @@ This analysis demonstrates that the content of our dreams varies significantly b
 
 Just to satisfy our curiosity and explore further, we plotted some additional graphs to analyze possible relationships between dreams.
 
-Here we can see the relationships between the cluster, age and emotion:
-![image](https://github.com/user-attachments/assets/5bc7696f-9d86-42c1-adc6-a80fa76d7412)
+Here we can see the relationships between the cluster, age and emotion. "AP" is the predominant emotion in both genders. "SD" is the least frequent emotion in most of the clusters.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5bc7696f-9d86-42c1-adc6-a80fa76d7412" width="400">
+</p>
 
-Here we can see the the relationships between age and gender:
-![image](https://github.com/user-attachments/assets/1931f11e-5228-4aa2-8262-13851075d14d)
+Here we can see the the relationships between emotion, age and gender. The boxplot shows a similar age distribution between men and women for all emotions. Some outliers are observed in the "HA" emotion.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1931f11e-5228-4aa2-8262-13851075d14d" width="400">
+</p>
 
+Here we can see the relationship between average dream length, emotion and gender. Women tend to write longer texts when expressing "AP" and "SD", while men tend to write longer texts for "CO".
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/725d2077-7ef4-4e13-92f1-ad998c26dcc8" width="400">
+</p>
+
+Here we can see the relationship between cluster and gender. Women show higher intensity of "HA" in cluster 5 (0.45), while men show higher "AP" in clusters 3, 4, and 6 (0.40).
+![image](https://github.com/user-attachments/assets/0ab35cfd-fafb-4f01-8da5-b1ddac202a41)
+
+
+These results suggest significant differences in emotional expression between genders across the different dream clusters.
 
 ## 5. Task 3. Implementation of a dashboard
 
