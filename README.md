@@ -112,7 +112,7 @@ To implement LDA, we first created a dictionary and corpus using Gensim. To dete
 The coherence scores were plotted against the number of topics. As shown in the following image, the maximum coherence score was achieved at around 20 topics, which was determined to be the optimal number for our dataset. This suggests that 20 topics provide the best balance between model complexity and topic interpretability. The final LDA model was trained with this optimal number of topics.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5dd9918b-6cdb-49d4-8b73-2f3e6e374cb7">
+  <img src="https://github.com/user-attachments/assets/5dd9918b-6cdb-49d4-8b73-2f3e6e374cb7 width="400"/>
 </p>
 
 Each document was then represented as a vector of topic probabilities. This involved obtaining the probability distribution over all topics for each document, with the resulting matrix having dimensions corresponding to the number of documents and the number of topics.
@@ -189,7 +189,8 @@ These following plots show the relationship between the LDA topics and the K-Mea
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e5679b5d-ad8d-4611-a9cb-5066629a3906">
+  <img src="https://github.com/user-attachments/assets/e5679b5d-ad8d-4611-a9cb-5066629a3906" width="400"/>
+</p>
 
 In this last plot, using K-Means with 20 clusters, the Davies-Bouldin index ranged from 1.679 (which is the index obtained with 7 clusters) to 1.638, which does not indicate a significant improvement. This range suggests that the clusters are not perfectly separated and compact, but they are also not completely dispersed or poorly defined. Quite reasonable results given a real dataset. 
 
