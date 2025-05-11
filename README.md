@@ -112,7 +112,7 @@ To implement LDA, we first created a dictionary and corpus using Gensim. To dete
 The coherence scores were plotted against the number of topics. As shown in the following image, the maximum coherence score was achieved at around 20 topics, which was determined to be the optimal number for our dataset. This suggests that 20 topics provide the best balance between model complexity and topic interpretability. The final LDA model was trained with this optimal number of topics.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5dd9918b-6cdb-49d4-8b73-2f3e6e374cb7 width="400/">
+  <img src="https://github.com/user-attachments/assets/5dd9918b-6cdb-49d4-8b73-2f3e6e374cb7" width="400"/>
 </p>
 
 Each document was then represented as a vector of topic probabilities. This involved obtaining the probability distribution over all topics for each document, with the resulting matrix having dimensions corresponding to the number of documents and the number of topics.
