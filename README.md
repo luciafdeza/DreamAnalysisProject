@@ -67,7 +67,7 @@ It is crucial that the steps are followed in the order we explained them. All of
 
 We have applied various text vectorization techniques to our dataset. We already know that text vectorization is the process of converting textual data into numerical vectors that machine learning algorithms can interpret. We investigated different vectorization schemes, from classical ones to more sophisticated semantic embeddings.
 
-#### Classical Vectorization: BoW and TF-IDF
+#### 1. Classical Vectorization: BoW and TF-IDF
 
 **Bag of Words (BoW):** The Bag of Words vectorization represents documents as sparse vectors based on word frequencies. In our implementation, we restricted the representation to the 5000 most frequent words using scikit-learn’s `CountVectorizer`. The resulting matrix had dimensions corresponding to the number of documents and the vocabulary size. This representation is one of the simplest, as it only counts how many times each word appears in each document, disregarding word order and semantic relationships.
 
