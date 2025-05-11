@@ -214,8 +214,9 @@ While no extremely clear divisions are observed among the clusters, there are se
   - Cluster 5 features the shortest dreams
   - Cluster 3 has the longest dreams 
 
-![image](https://github.com/user-attachments/assets/7b894837-92e4-49a0-bf63-b2edee1349ae)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7b894837-92e4-49a0-bf63-b2edee1349ae" width="400"/>
+</p>
 
 Furthermore, we can relate the clusters with the Topics from LDA thanks to the table obtained:
 
