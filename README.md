@@ -182,12 +182,18 @@ To obtain the optimal number of clusters, we used a combination of **Silhouette 
 
 To visualize the clusters, we apply PCA, t-SNE, and UMAP. These dimensionality reduction techniques reduce the data to 2D or 3D space, helping us visualize the distribution and separation of the clusters, making it easier to interpret the results of K-Means clustering.
 
-These following plots show the relationship between the LDA topics and the K-Means clusters. In the left-hand visualization, each dream is colored according to its predominant topic, meaning the topic with the highest probability in its LDA representation. In the right-hand visualization, the colors indicate the clusters assigned by K-Means, which were learned based on the topic distributions produced by the LDA model.
+These following plots show the relationship between the LDA topics and the K-Means clusters. In the left-hand visualization, each dream is colored according to its predominant topic, meaning the topic with the highest probability in its LDA representation. In the right-hand visualization, the colors indicate the clusters assigned by K-Means, which were learned based on the topic distributions produced by the LDA model (7 clusters have been used in both plots).
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b3c8854e-da2c-450d-93fc-aa4c214e6b3e">
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e5679b5d-ad8d-4611-a9cb-5066629a3906">
+
+In this last plot, using K-Means with 20 clusters, the Davies-Bouldin index ranged from 1.679 (which is the index obtained with 7 clusters) to 1.638, which does not indicate a significant improvement. This range suggests that the clusters are not perfectly separated and compact, but they are also not completely dispersed or poorly defined. Quite reasonable results given a real dataset. 
+
+By comparing the relation of topics and the two cluster representations, we can see that with 7 clusters we represent the bigger topics, meaning the topics that have more entries, but if we check the 20 clusters graph we can appreciate that it is capturing the smaller topics, the topics that have less number of dreams associated.
 
 
 
