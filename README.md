@@ -275,7 +275,15 @@ These results suggest significant differences in emotional expression between ge
 
 ## 5. Task 3. Implementation of a dashboard
 
+The Dream Analysis Dashboard we created offers an interactive way to explore various aspects of the dataset. The dashboard includes a variety of visualizations to analyze emotions, dream lengths, predominant topics and word distributions. By interacting with it, users can filter and view trends related to emotions, dream length and topics over time and by gender. This interactive experience enables users to gain deeper insights into the data.
 
+The Emotion Distribution in Dreams graph allows users to explore the prevalence of different emotions (such as Anger, Anxiety, Sadness, Confusion and Positive Emotions) within dreams over specific decades. Using the decade slider, users can select a date and the graph will display how these emotions were distributed among dream reports during that time period. 
+
+The Word Cloud for Selected Label presents the most frequent words within dreams associated with a specific label. By selecting a label from the dropdown menu, users can see which words appear most frequently within that category. This interactive word cloud gives users a quick overview of recurring themes or concepts within different subsets of dreams, providing an intuitive way to understand the key topics that define each label.
+
+The Dream Length vs Emotion graph compares the lengths of dreams (measured in word count) across various emotions, with an option to filter by Gender. Here we can conclude that women tend to give more extensive descriptions of their dreams.
+
+Lastly, the LDA Topic Distribution Pie Chart visualizes the distribution of topics within the dataset, allowing users to explore how topics vary over time by selecting different decades with the Decade Slider.
 
 
 ## 6. Acknowledgement of authorship
