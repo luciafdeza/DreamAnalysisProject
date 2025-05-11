@@ -223,6 +223,31 @@ Furthermore, we can relate the clusters with the Topics from LDA thanks to the t
 
 ![image](https://github.com/user-attachments/assets/e80e1d9d-55f8-4ebc-8031-c93367b0a47b)
 
+With seven clusters we are trying to capture the bigger topics and we can check it in the representation on the table above.
+
+- **Cluster 0**:  
+  It is dominated by conversation-related topics (Topic 10: *"tell"*, *"say"*, *"think"*). The distribution of emotions is more or less similar for all feelings, but the predominant emotion is anxiety. We could suppose that in this cluster we can find dreams that represent a preoccupation for the dreamer to have a conversation with somebody, as it produces them anxiety.
+
+- **Cluster 1**:  
+  We can find words related to Topic 9 (*"man"*, *"woman"*, *"room"*, *"feel"*) that seem to be focused on personal interaction. These dreams are frequent among women and explore themes of intimacy, relationships, and emotional connections in enclosed spaces, potentially reflecting personal concerns about social or romantic bonds.
+
+- **Cluster 2**:  
+  We see words like those in Topic 15 (*"go"*, *"say"*, *"house"*, *"guy"*) that are common to everyday colloquial vocabulary. They reflect normal social situations and domestic environments, likely integrating recent everyday experiences.
+
+- **Cluster 3**:  
+  The most popular topic in this cluster (Topic 1: *"look"*, *"door"*, *"room"*, *"walk"*) seems to include verbs related to transition. These are the longest and most complex dreams, so they might represent long descriptive experiences and include other participants.
+
+- **Cluster 4**:  
+  Words from Topics 7 and 8 (*"car"*, *"drive"*, *"road"*, *"gun"*) seem to represent experiences similar to those in cluster 3, but shorter. This cluster has a more gender-balanced audience and seems to involve more action-oriented narratives.
+
+- **Cluster 5**:  
+  Here we can find words related to school (Topic 3: *"friend"*, *"feeling"*, *"dream"*, *"school"*). These dreams might represent social or formative experiences and probably include other people like friends and teachers. This is the cluster that, in proportion, contains a big part of happy dreams.
+
+- **Cluster 6**:  
+  We can find words related to Topic 12 (*"think"*, *"church"*, *"know"*). These dreams involve spiritual or moral reflection, suggesting a life stage more focused on searching for meaning. Also, the big anxiety component in this cluster might suggest that these dreams produce some kind of stress or worry for the dreamer.
+
+This analysis demonstrates that the content of our dreams varies significantly by gender, with linguistic patterns that reflect the concerns and priorities of different life stages.
+
 
 
 ## 5. Task 3. Implementation of a dashboard
