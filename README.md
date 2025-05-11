@@ -248,6 +248,13 @@ With seven clusters we are trying to capture the bigger topics and we can check 
 
 This analysis demonstrates that the content of our dreams varies significantly by gender, with linguistic patterns that reflect the concerns and priorities of different life stages.
 
+Just to satisfy our curiosity and explore further, we plotted some additional graphs to analyze possible relationships between dreams.
+
+Here we can see the relationships between the cluster, age and emotion:
+![image](https://github.com/user-attachments/assets/5bc7696f-9d86-42c1-adc6-a80fa76d7412)
+
+Here we can see the the relationships between age and gender:
+![image](https://github.com/user-attachments/assets/1931f11e-5228-4aa2-8262-13851075d14d)
 
 
 ## 5. Task 3. Implementation of a dashboard
