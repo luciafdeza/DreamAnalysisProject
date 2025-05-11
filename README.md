@@ -28,8 +28,8 @@ We have divided the report into the following parts:
     - 3.1 **Text Preprocessing Pipeline**  
     - 3.2 **Text Vectorization**  
 4. **Task 2. Machine Learning**  
-    - 4.1 **Classification using Feature Extraction or Selection Techniques**
-    - 4.1 **Clustering using Feature Extraction or Selection Techniques**  
+    - 4.1 **Classification**
+    - 4.1 **Clustering**  
 5. **Task 3. Implementation of a Dashboard**  
 6. **Acknowledgement of Authorship**  
 7. **Conclusion**  
@@ -130,7 +130,7 @@ Topic 8: Words like "car", "road", "stop", and "drive" focus specifically on roa
 These discovered topics provide valuable insights into the main themes present in our corpus and can be used for document classification or recommendation systems.
 
 ## 4. Task 2 Machine Learning
-### 4.1 Task 2.1. Classification using feature extraction & selection techniques
+### 4.1 Task 2.1. Classification
 
 For classification, our objective was to classify the emotion of a dream. We used the ‘emotion_feature’, which contains the following labels:
 - **HA**: positive emotions 
@@ -168,7 +168,7 @@ The results were notably stronger, even with just BoW and TF-IDF. These results 
 
 The performance in this binary classification task confirms that the models are capable of extracting discriminative features from the dream texts and reinforces the idea that the lower performance in emotion classification is not due to model incapacity, but rather due to the complexity, ambiguity, and subjectivity of emotional expressions.
 
-### 4.2 Task 2.2. Clustering using feature extraction or selection techniques
+### 4.2 Task 2.2. Clustering
 
 We thought it would be interesting to analyze the themes of dreams and see if they were related or if we could identify predominant themes.
 
