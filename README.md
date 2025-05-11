@@ -43,6 +43,16 @@ For classification, we wanted to train a model capable of predicting the emotion
 
 We also wanted to recommend similar dreams to users, as well as users who dream similar things. However, since dreams are a personal experience and it is impossible for two people to dream exactly the same thing, we were unable to recommend specific dreams.
 
+## 2. Dataset preparation 
+
+
+At the beginning we started working with DreamBank dataset, which is publicly available in Hugging Face and had 22k entries. It lacked complementary variables like age, emotions… After performing k means clustering with k = 4000 to have a varied dataset, and start working with it we realised we could obtain a poor work, so we decided to change the dataset, but not the scope
+
+For the preparation of the dataset, we selected the DreamBank-annotated dataset, which is also publicly available through Hugging Face, which contains 28k entries. The first stage was to use an initial filter, discarding entries that had missing values and with length of less than 50 words, assuming that shorter dreams are unlikely to contain meaningful content. After this, we used a KMeans clustering algorithm with 4000 clusters, since this is the desired size for our dataset. By choosing the closest dreams to the cluster centroids, we ensured that the set was sufficiently diverse, as each selected dream belongs to a different cluster, guaranteeing a varied representation of the content. This was a strategy that enabled us to minimize the dataset, yet preserve its diversity and relevance which is important for further analysis.
+
+The main advantage of this dataset is that it provided some extra information about the dreams that we could use for the work like: age group, characters in the dream, emotions and who felt them. Our target variable is going to be emotions, but we had to clean it since it contained several labels among AN anger, AP anxiety, SD sadness, CO confusion and HA positive emotions and the person that felt the emotion. We established that D stands for Dreamer and we are going to consider the emotion associated with the dreamer as the main emotion of the dream. We cleaned the year data as well, as it gave a range we decided to keep the oldest year. 
+
+
 ## 3. Task 1. Natural Language Processing and Text Vectorization
 
 ### 3.1 Text Preprocessing Pipeline
