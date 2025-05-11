@@ -1,4 +1,4 @@
-# Dream Analysis Project
+# Dreams Analysis Project
 **Dreams Analysis Through Classification and Clustering**
 
 **Dual Bachelor in Data Science and Engineering & Telecommunication Technologies Engineering**
