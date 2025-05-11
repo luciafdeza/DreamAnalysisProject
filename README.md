@@ -283,6 +283,8 @@ The Word Cloud for Selected Label presents the most frequent words within dreams
 
 The Dream Length vs Emotion graph compares the lengths of dreams (measured in word count) across various emotions, with an option to filter by Gender. Here we can conclude that women tend to give more extensive descriptions of their dreams.
 
+Lastly, the LDA Topic Distribution Pie Chart visualizes the distribution of topics within the dataset, allowing users to explore how topics vary over time by selecting different decades with the Decade Slider.
+
 ## 6. Acknowledgement of authorship
 This project has been developed by the four of us. We have been working collaboratively in the structure, development, and analysis of the different tasks and results. We have discussed which tools and methods to implement are the best options to address the challenges faced throughout the process.
 During the implementation, we found technical and conceptual obstacles and issues that led us to explore and experiment. When we got stuck or when the results were unclear, we used artificial intelligence, such as ChatGPT, Gemini, and Claude. These tools facilitated our analysis, and gave us some ideas on how to improve our approach. Nevertheless, it did not solve all of our questions and sometimes it gave wrong answers, so we had to be careful and verify things twice in order to not make mistakes.
